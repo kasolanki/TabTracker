@@ -71,7 +71,7 @@
 
       <v-btn
         dark
-        class="cyan"
+        class="brown"
         @click="create">
         Create Song
       </v-btn>

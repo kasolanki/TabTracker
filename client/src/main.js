@@ -5,10 +5,12 @@ import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
+import VueYouTubeEmbed from 'vue-youtube-embed'
 
 Vue.config.productionTip = false
 
 Vue.use(Vuetify)
+Vue.use(VueYouTubeEmbed)
 
 /* eslint-disable no-new */
 new Vue({
